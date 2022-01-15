@@ -1,0 +1,14 @@
+.model ACCUMULATORE
+.inputs S A0 A1
+.outputs O0 O1
+
+.names S A0 A1 O0
+-10 1
+101 1
+
+.names S A0 A1 O1
+110 1
+100 1
+001 1
+
+.end

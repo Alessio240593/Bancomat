@@ -1,0 +1,25 @@
+.model REGISTRO16
+.inputs A15 A14 A13 A12 A11 A10 A9 A8 A7 A6 A5 A4 A3 A2 A1 A0
+.outputs O15 O14 O13 O12 O11 O10 O9 O8 O7 O6 O5 O4 O3 O2 O1 O0
+
+.subckt REGISTRO A=A15 O=O15
+.subckt REGISTRO A=A14 O=O14
+.subckt REGISTRO A=A13 O=O13
+.subckt REGISTRO A=A12 O=O12
+.subckt REGISTRO A=A11 O=O11
+.subckt REGISTRO A=A10 O=O10
+.subckt REGISTRO A=A9 O=O9
+.subckt REGISTRO A=A8 O=O8
+.subckt REGISTRO A=A7 O=O7
+.subckt REGISTRO A=A6 O=O6
+.subckt REGISTRO A=A5 O=O5
+.subckt REGISTRO A=A4 O=O4
+.subckt REGISTRO A=A3 O=O3
+.subckt REGISTRO A=A2 O=O2
+.subckt REGISTRO A=A1 O=O1
+.subckt REGISTRO A=A0 O=O0
+
+.search registro.blif
+
+.end
+

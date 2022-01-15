@@ -1,0 +1,11 @@
+.model DEMUX2BIT
+.inputs S A0 A1 
+.outputs X0 X1 Y0 Y1
+
+.subckt DEMUX S=S A=A0 X=X0 Y=Y0 
+.subckt DEMUX S=S A=A1 X=X1 Y=Y1
+
+.search demux.blif
+
+.end
+

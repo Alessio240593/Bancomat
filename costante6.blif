@@ -1,0 +1,16 @@
+.model COSTANTE6
+.outputs O0 O1 O2 O3 O4 O5
+
+.names O0
+
+.names O1
+
+.names O2
+
+.names O3
+
+.names O4
+
+.names O5
+
+.end

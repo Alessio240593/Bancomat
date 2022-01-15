@@ -1,0 +1,59 @@
+.model FSMD
+.inputs B_I C0 C1 C2 C3 A0 A1 A2 A3 A4 A5 A6 A7 A8 A9 B0 B1 B2 B3 B4 B5 B6 B7 \
+B8 B9 B10 B11 B12 B13 B14 B15
+.outputs R A B O0 O1 O2 O3 O4 O5 O6 O7 O8 O9
+.latch    [4390] LatchOut_v6   1
+.latch    [4391] LatchOut_v7   1
+.latch    [4392] LatchOut_v8   1
+.latch    [4393] LatchOut_v9   1
+.names B_I LatchOut_v7 LatchOut_v9 LatchOut_v8 R
+1001 1
+.names R LatchOut_v7 LatchOut_v9 LatchOut_v8 B
+-10- 1
+0-01 1
+.names A0 A O0
+11 1
+.names A1 A O1
+11 1
+.names A2 A O2
+11 1
+.names A3 A O3
+11 1
+.names A4 A O4
+11 1
+.names A5 A O5
+11 1
+.names A6 A O6
+11 1
+.names A7 A O7
+11 1
+.names A8 A O8
+11 1
+.names A9 A O9
+11 1
+.names B_I LatchOut_v8 LatchOut_v9 A
+100 1
+.names C0 C1 C2 C3 LatchOut_v6 LatchOut_v7 [4391] [4393] [4390]
+1------- 1
+-0------ 1
+--1----- 1
+---0---- 1
+------1- 1
+-------0 1
+----10-- 1
+.names B_I LatchOut_v7 LatchOut_v8 LatchOut_v9 [4391]
+0--- 1
+---0 1
+-11- 1
+.names LatchOut_v8 [4391] B [4393]
+0-- 1
+-10 1
+.names B_I C0 C1 C2 C3 LatchOut_v6 LatchOut_v7 LatchOut_v8 [4393] [4392]
+0-------- 1
+-1---0--- 1
+--1--0--- 1
+----10--- 1
+------00- 1
+---1----0 1
+-----1--0 1
+.end

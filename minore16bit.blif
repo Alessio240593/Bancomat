@@ -1,0 +1,57 @@
+.model MINORE16BIT
+.inputs A0 A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 B0 B1 B2 B3 B4 B5 B6 B7 B8 B9 B10 B11 B12 B13 B14 B15 
+.outputs O
+
+.subckt MINORE A=A0 B=B0 O=O0
+.subckt MINORE A=A1 B=B1 O=O1
+.subckt MINORE A=A2 B=B2 O=O2
+.subckt MINORE A=A3 B=B3 O=O3
+.subckt MINORE A=A4 B=B4 O=O4
+.subckt MINORE A=A5 B=B5 O=O5
+.subckt MINORE A=A6 B=B6 O=O6
+.subckt MINORE A=A7 B=B7 O=O7
+.subckt MINORE A=A8 B=B8 O=O8
+.subckt MINORE A=A9 B=B9 O=O9
+.subckt MINORE A=A10 B=B10 O=O10
+.subckt MINORE A=A11 B=B11 O=O11
+.subckt MINORE A=A12 B=B12 O=O12
+.subckt MINORE A=A13 B=B13 O=O13
+.subckt MINORE A=A14 B=B14 O=O14
+.subckt MINORE A=A15 B=B15 O=O15
+
+.names O0 O1 O2 O3 O4 O5 O6 O7 O8 O9 O10 O11 O12 O13 O14 O15 O
+1--------------- 1
+11-------------- 1
+111------------- 1
+1111------------ 1
+11111----------- 1
+111111---------- 1
+1111111--------- 1
+11111111-------- 1
+111111111------- 1
+1111111111------ 1
+11111111111----- 1
+111111111111---- 1
+1111111111111--- 1
+11111111111111-- 1
+111111111111111- 1
+1111111111111111 1
+01-------------- 1
+001------------- 1
+0001------------ 1
+00001----------- 1
+000001---------- 1
+0000001--------- 1
+00000001-------- 1
+000000001------- 1
+0000000001------ 1
+00000000001----- 1
+000000000001---- 1
+0000000000001--- 1
+00000000000001-- 1
+000000000000001- 1
+0000000000000001 1
+
+.search minore.blif
+
+.end

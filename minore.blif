@@ -1,0 +1,8 @@
+.model MINORE
+.inputs A B 
+.outputs O
+
+.names A B O
+01 1
+
+.end

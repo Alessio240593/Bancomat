@@ -1,0 +1,103 @@
+.model DATAPATH
+.inputs R S A0 A1 A2 A3 A4 A5 A6 A7 A8 A9 B0 B1 B2 B3 B4 B5 B6 B7 B8 B9 B10 \
+B11 B12 B13 B14 B15
+.outputs B W O0 O1 O2 O3 O4 O5 O6 O7 O8 O9
+.latch    O0 L6 re NIL 0
+.latch    O1 L7 re NIL 0
+.latch    O2 L8 re NIL 0
+.latch    O3 L9 re NIL 0
+.latch    O4 L10 re NIL 0
+.latch    O5 L11 re NIL 0
+.latch    O6 L12 re NIL 0
+.latch    O7 L13 re NIL 0
+.latch    O8 L14 re NIL 0
+.latch    O9 L15 re NIL 0
+.latch    N2 G2 re NIL 0
+.latch    N3 G3 re NIL 0
+.latch    N4 G4 re NIL 0
+.latch    N5 G5 re NIL 0
+.latch    N6 G6 re NIL 0
+.latch    N7 G7 re NIL 0
+.latch    N8 G8 re NIL 0
+.latch    N9 G9 re NIL 0
+.latch    N10 G10 re NIL 0
+.latch    N11 G11 re NIL 0
+.latch    N12 G12 re NIL 0
+.latch    N13 G13 re NIL 0
+.latch    N14 G14 re NIL 0
+.latch    N15 G15 re NIL 0
+.latch    X0 R0 re NIL 0
+.latch    X1 R1 re NIL 0
+.names R R0 R1 B
+110 1
+.names L6 L7 L8 L9 L10 L11 L12 L13 L14 L15 G2 G3 G4 G5 G6 G7 G8 G9 G10 G11 G12 \
+G13 G14 G15 W
+----------1------------- 1
+-----------1------------ 1
+------------1----------- 1
+-------------1---------- 1
+0-------------1--------- 1
+-0-------------1-------- 1
+--0-------------1------- 1
+---0-------------1------ 1
+----0-------------1----- 1
+-----0-------------1---- 1
+------0-------------1--- 1
+-------0-------------1-- 1
+--------0-------------1- 1
+---------0-------------1 1
+.names S A0 O0
+11 1
+.names S A1 O1
+11 1
+.names S A2 O2
+11 1
+.names S A3 O3
+11 1
+.names S A4 O4
+11 1
+.names S A5 O5
+11 1
+.names S A6 O6
+11 1
+.names S A7 O7
+11 1
+.names S A8 O8
+11 1
+.names S A9 O9
+11 1
+.names S B0 N2
+11 1
+.names S B1 N3
+11 1
+.names S B2 N4
+11 1
+.names S B3 N5
+11 1
+.names S B4 N6
+11 1
+.names S B5 N7
+11 1
+.names S B6 N8
+11 1
+.names S B7 N9
+11 1
+.names S B8 N10
+11 1
+.names S B9 N11
+11 1
+.names S B10 N12
+11 1
+.names S B11 N13
+11 1
+.names S B12 N14
+11 1
+.names S B13 N15
+11 1
+.names R B R0 R1 X0
+1-01 1
+-010 1
+.names R B R0 R1 X1
+0-01 1
+10-0 1
+.end
